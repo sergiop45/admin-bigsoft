@@ -1,0 +1,13 @@
+.feedEmails {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #26a449;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.feedEmails h1 {
+    text-align: center;
+    margin: 4vh auto;
+}

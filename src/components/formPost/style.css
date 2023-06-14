@@ -1,0 +1,40 @@
+.formPost {
+    background-color: #fff;
+    width: 700px;
+    margin: 2vh auto;
+    padding: 1vh;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.formPost form {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 5vh;
+    text-align: start;
+}
+.formPost form input {
+    border-radius: 5px;
+    margin-bottom: 1.3vh;
+    
+}
+
+.ql-editor {
+    min-height: 200px;
+}
+
+.ql-toolbar .ql-button {
+    color: #fff;
+    background-color: #0F4419;
+    border: none;
+  }
+
+.formPost form input[type=submit] {
+    background-color: #000;
+    color: #fcfcfc;
+    font-weight: bold;
+    width: 30%;
+    margin: 2vh auto;
+}

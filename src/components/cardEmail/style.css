@@ -1,0 +1,27 @@
+.cardEmail {
+    background-color: #fff;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh auto;
+    max-width: 500px;
+    width: 90%;
+    border: 1.5px solid #000;
+    border-radius: 4px;
+}
+
+.cardEmail p {
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.cardEmail div button{
+    margin-right: 9px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+.cardEmail div button:first-child {
+    background-color: red;
+}

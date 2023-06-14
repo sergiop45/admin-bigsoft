@@ -1,0 +1,29 @@
+.formCidade {
+    background-color: #fcfc;
+    width: 50%;
+    margin: 2vh auto;
+    padding: 1vh;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: auto;
+}
+
+.formCidade form {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 5vh;
+    text-align: start;
+}
+.formCidade form input {
+    border-radius: 5px;
+    margin-bottom: 1.3vh;
+    
+}
+.formCidade form input[type=submit] {
+    background-color: #000;
+    color: #fcfcfc;
+    font-weight: bold;
+    width: 30%;
+    margin: 0 auto;
+}

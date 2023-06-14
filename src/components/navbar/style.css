@@ -1,0 +1,171 @@
+.header {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 57px;
+    padding: 0 1em;
+
+    background: rgba(241, 241, 241, 0.5);
+    border: 1px solid #F1F1F1;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    width: 110px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.b {
+    color: #084710;
+}
+
+.logotext {
+    width: 73px;
+    height: 26px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.rectangules {
+    margin-left: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 22px;
+    height: 22px;
+}
+
+
+.rectangule1 {
+    width: 10px;
+    height: 10px;
+    background: #40C458;
+    border-radius: 4px;
+}
+
+.rectangule2 {
+    width: 10px;
+    height: 10px;
+    background: #0F4419;
+    border-radius: 4px;
+}
+
+.rectangule3 {
+    width: 10px;
+    height: 10px;
+    background: #014209;
+    border-radius: 4px;
+}
+
+.rectangule4 {
+    width: 10px;
+    height: 10px;
+    background: #109B29;
+    border-radius: 4px;   
+}
+
+.rectangule1,
+.rectangule2 {
+  order: 1;
+}
+
+.rectangule3,
+.rectangule4 {
+  order: 2;
+}
+
+
+.btn-menu {
+    height: 22px;
+    width: 21px;
+    cursor: pointer;
+    color: #0F4419;
+    display: none;
+}
+
+
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color:   rgba(241, 241, 241, 0.5);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.deskop {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desktop a {
+    text-decoration: none;
+    margin-right: 1em;
+    text-decoration: none;
+    color: #0F4419;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    width: 100%;
+}
+
+.menu ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu li {
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 5px 0;
+}
+.menu li:hover {
+    background-color: rgba(221, 221, 221, 0.5);
+}
+
+.menu a {
+    width: 100%;
+    text-decoration: none;
+}
+
+.menu a  {
+    text-decoration: none;
+    color: #0F4419;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    width: 100%;
+}
+
+
+@media (max-width: 767px) {
+    .header {
+      height: 80px;
+    }
+    .btn-menu {
+        display: flex;
+    }
+
+    .desktop {
+        display: none;
+    }
+    
+  }
